@@ -5,7 +5,7 @@ import Plant from "./Plant";
 class App extends Component {
     render() {
         return (
-            <div className="App">
+            <div id="App">
                 <Plant />
             </div>
         )
