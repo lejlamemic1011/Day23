@@ -13,7 +13,7 @@ changeType = () => {
 render(){
     return(
         <div><h2>Plant type is {this.state.type} </h2>
-        <button type="button" onClick={this.changeType}>Change color</button></div>
+        <button type="button" onClick={this.changeType}>Change type</button></div>
     )
 }
 }
